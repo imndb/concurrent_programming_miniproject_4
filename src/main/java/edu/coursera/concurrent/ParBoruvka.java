@@ -268,7 +268,7 @@ public final class ParBoruvka extends AbstractBoruvka<ParBoruvka.ParComponent> {
          * @param w Weight of this edge.
          */
         public ParEdge(final ParComponent from, final ParComponent to,
-                final double w) {
+                       final double w) {
             fromComponent = from;
             toComponent = to;
             weight = w;
